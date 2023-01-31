@@ -4,9 +4,9 @@ const mysql = require('mysql');
 const cors = require('cors');
 
 const db = mysql.createPool({
-    host: "localhost",
-    user: "root",
-    password: "nailton123",
+    host: "testserver09.mysql.database.azure.com",
+    user: "promise",
+    password: "password@123",
     database: "crudgames",
 });
 
